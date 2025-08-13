@@ -1,0 +1,27 @@
+/* Utilitário: esconder elementos quando necessário */
+.hidden { display: none; }
+
+/* Alvos (onde soltamos as descrições) */
+.target {
+  border: 2px dashed #aaa;   /* Borda tracejada para sugerir área de drop */
+  padding: 10px;             /* Respiro interno */
+  margin: 8px 0;             /* Espaço entre alvos */
+  border-radius: 8px;        /* Cantos arredondados */
+  background: #f9fbff;       /* Fundo suave */
+}
+
+/* Itens arrastáveis (descrições) */
+.draggable {
+  border: 1px solid #333;    /* Contorno simples */
+  padding: 8px;              /* Respiro interno */
+  margin: 6px 0;             /* Espaço entre itens */
+  cursor: grab;              /* Indica que é arrastável */
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Feedback visual quando o usuário acerta a correspondência */
+.correct { background-color: #c8f7c5; }
+
+/* Feedback visual momentâneo para erro */
+.wrong { background-color: #f7c5c5; }

@@ -1,0 +1,21 @@
+{
+  "titulo": "Capítulo 3 - O Ciclo da Água",
+  "etapas": [
+    {
+      "nome": "Evaporação",
+      "descricao": "A água evapora e sobe para a atmosfera."
+    },
+    {
+      "nome": "Condensação",
+      "descricao": "O vapor se resfria e forma nuvens."
+    },
+    {
+      "nome": "Precipitação",
+      "descricao": "A água cai em forma de chuva, neve ou granizo."
+    },
+    {
+      "nome": "Infiltração",
+      "descricao": "A água penetra no solo e abastece lençóis freáticos."
+    }
+  ]
+}

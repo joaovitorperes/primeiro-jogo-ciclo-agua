@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <!-- Configurações básicas de charset e viewport -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jogo: Ciclo da Água</title>
+
+  <!-- Importa o CSS com estilos do jogo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tela inicial: mostra o título (carregado do JSON) e o botão para iniciar -->
+  <section id="tela-inicial">
+    <h1 id="game-title">Carregando...</h1>
+    <button id="startBtn">Iniciar</button>
+  </section>
+
+  <!-- Tela do jogo: pontuação + área de alvos (etapas) e itens arrastáveis (descrições) -->
+  <section id="tela-jogo" class="hidden" aria-live="polite">
+    <div>Pontos: <span id="score">0</span></div>
+
+    <!-- Alvos: onde soltamos as descrições (um target por etapa) -->
+    <div id="targets"></div>
+
+    <!-- Itens arrastáveis: cada descrição vira um bloco que o usuário arrasta -->
+    <div id="draggables"></div>
+  </section>
+
+  <!-- Tela final: aparece quando todas as correspondências estiverem corretas -->
+  <section id="tela-final" class="hidden">
+    <h2>Parabéns!</h2>
+    <p>Você marcou <span id="final-score"></span> pontos.</p>
+    <button id="restartBtn">Reiniciar</button>
+  </section>
+
+  <!-- Lógica do jogo -->
+  <script src="script.js"></script>
+</body>
+</html>
