@@ -39,11 +39,11 @@ Este é um jogo educativo interativo que ensina as etapas do ciclo da água. Des
      ├── node_modules/
      ├── public/
      │   ├── index.html
-     │   ├── style.css
-     ├── script.js
-     ├── jogo.json
-     ├── README.md
-     ├── package.json
+     │   ├── jogo.json
+     │   ├── README.md
+     │   ├── script.js
+     │   └── style.css
      ├── package-lock.json
+     ├── package.json
      └── server.js
      ```
