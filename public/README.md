@@ -6,29 +6,44 @@ Este é um jogo educativo interativo que ensina as etapas do ciclo da água. Des
 
 ## 🚀 Como executar
 
-1. **Instale o Node.js**  
-   Verifique se o Node está instalado:
-   ```bash
-   node -v
+1. **Instale o Node.js**
+   - Verifique se o Node está instalado:
+     ```bash
+     node -v
+     ```
+   - Caso não esteja instalado, baixe em: [https://nodejs.org](https://nodejs.org)
 
-2. Instale as dependências
-npm install
+2. **Instale as dependências**
+   - Execute o comando abaixo na raiz do projeto:
+     ```bash
+     npm install
+     ```
 
-3. Inicie o servidor
-node server.js
+3. **Inicie o servidor**
+   - Rode o servidor com o comando:
+     ```bash
+     node server.js
+     ```
 
-4. Abra no navegador
-http://localhost:3000
+4. **Abra no navegador**
+   - Acesse o jogo através do endereço:
+     ```text
+     http://localhost:3000
+     ```
 
-PRIMEIRO-JOGO-CICLO-AGUA/
-├── node_modules/
-├── public/
-│   ├── index.html       # Interface do jogo
-│   ├── style.css        # Estilos visuais
-│   ├── script.js        # Lógica do jogo
-│   ├── jogo.json        # Conteúdo dinâmico (etapas e descrições)
-│   └── README.md        # Este arquivo
-├── package.json         # Configuração do projeto Node
-├── package-lock.json    # Controle de versões das dependências
-└── server.js            # Servidor Express
+5. **Estrutura do projeto**
+   - A organização dos arquivos está assim:
 
+     ```text
+     PRIMEIRO-JOGO-CICLO-AGUA/
+     ├── node_modules/
+     ├── public/
+     │   ├── index.html
+     │   ├── style.css
+     ├── script.js
+     ├── jogo.json
+     ├── README.md
+     ├── package.json
+     ├── package-lock.json
+     └── server.js
+     ```
